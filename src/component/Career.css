@@ -1,0 +1,99 @@
+ .Csub{
+    margin-top:12px;
+    color: grey;
+}
+.Csup{
+    color: brown;
+    font-size: 40px;
+}
+.Cleft{
+    text-align: left;
+    margin-top: 30px;
+    color: brown;
+}
+.Ctleft{
+    text-align: left;
+    font-size: 17px;
+}
+.Csups{
+    margin-top: 7px;
+    color: brown;
+}
+.con{
+    margin-left: 45px;
+}
+.gmap_iframe{
+    margin-top: 50px;
+    width: 100%!important;
+    height: 400px;
+} 
+.Cone{
+    display: flex;
+    margin-top: 35px;
+}
+.Cfone{
+    display: flex;
+    margin-top: 35px;
+    padding-left: 45px;
+    color: grey;
+
+}
+.Csups{
+margin-right: 5px;
+}
+.Ccc{
+   margin-top: 14px; 
+}
+.Cbut{
+    margin-top: 30px;
+  margin-right: 100px;
+}
+.Ctcs{
+    margin-left: 665px;
+    margin-top: -40px;
+}
+.Ctext{
+    margin-left: 605px;
+}
+.Ctexts{
+    margin-left: 680px;
+    margin-top: -37px;
+}
+.Cone h4::before{
+    content: '';
+    background: #66c83d;
+    width: 13%;
+    height: 5px;
+    position: absolute;
+    margin-top: 45px;
+    left: 3%;
+}
+.Cfone h5::before{
+    content: '';
+    background: #66c83d;
+    width: 13%;
+    height: 5px;
+    position: absolute;
+    margin-top: 45px;
+    left: 11%;
+}
+.CAbackground{
+    background-image: url("../Images/icecream-base-6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 570px;
+}
+
+div.CAtransbox {
+    margin: 50px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+div.CAtransbox h1 {
+    margin: 5%;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+  }

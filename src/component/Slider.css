@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.para{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18.5px;
+    text-align: center;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    display: flex;
+    margin-top: 35px;
+}
+.sub{
+    color: grey;
+}
+.sup{
+    color: brown;
+    font-size: 40px;
+    /* margin-top: 23px; */
+}
+.left{
+    text-align: left;
+    font-size: 17px;
+    margin-top: -40px;
+}
+.bot{
+    margin-bottom:50px;
+    margin-top:50px;
+} 
+.mar{
+    padding-left: 160px;
+}
+.two{
+    margin-top:-65px;
+}
+.back{
+background-image: url("../Images/icecream-base-1.png");
+width:100%;
+height:300px;
+}
+.white{
+    margin-top: 50px;
+    color: white;
+    text-align: left;
+}
+.wel{
+ background-image: url("../Images/background.jpg");
+    width:100%;
+height:300px;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+.wel h1::after{
+    content: '';
+    background: #66c83d;
+    width: 7%;
+    height: 5px;
+    position: absolute;
+    margin-top: 60px;
+   bottom: 20;
+    left: 47%;
+    
+}
+.one h4::after{
+    content: '';
+    background: #66c83d;
+    width: 5%;
+    height: 5px;
+    position: absolute;
+    margin-top: 50px;
+   bottom: 10;
+    left: 9%;
+    
+}
+
+
